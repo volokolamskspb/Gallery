@@ -1,5 +1,7 @@
 # slider
 
+Slider with preview on VueJS
+
 ## Project setup
 ```
 yarn install
@@ -19,3 +21,5 @@ yarn run build
 ```
 yarn run lint
 ```
+
+

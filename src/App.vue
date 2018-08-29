@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>VueJS carousel demo</h1>
+    <EntranceComponent 
+        :photo="['logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png','logo.png', 'logo.png', 'logo.png']" 
+        height="60" 
+        maxWidth="200"
+        marg="auto" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EntranceComponent from "./components/EntranceComponent";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    EntranceComponent 
   }
 }
 </script>
@@ -23,6 +27,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  max-width: 600px;
+    margin: 60px auto;
 }
 </style>

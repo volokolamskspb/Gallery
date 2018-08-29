@@ -33,7 +33,7 @@ You can pass following options:
 
 Example:
 
-```javascript
+```vue
 <EntranceComponent 
         :photo="[
         'logo.png', 'logo.png', 
@@ -46,5 +46,5 @@ Example:
 ```
 ### Demo 
 
-<img src="slider.gif" alt="demo">
+<img src="slider_demo.gif" alt="demo">
 

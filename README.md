@@ -35,7 +35,11 @@ Example:
 
 ```javascript
 <EntranceComponent 
-        :photo="['logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png','logo.png', 'logo.png', 'logo.png']" 
+        :photo="[
+        'logo.png', 'logo.png', 
+        'logo.png', 'logo.png', 
+        'logo.png','logo.png', 
+        ]" 
         height="60" 
         maxWidth="200"
         marg="auto" />

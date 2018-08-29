@@ -1,4 +1,4 @@
-# slider
+# Slider
 
 Slider component with preview on VueJS
 

@@ -24,5 +24,25 @@ yarn run lint
 
 ### Options 
 
+You can pass following options:
 
+* height - Number, height in pixels
+* margin - String, margin property
+* maxWidth - Number, max-width property
+* photo - Array of images located in `/src/assets` 
 
+Example:
+
+```javascript
+<EntranceComponent 
+        :photo="['logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png', 'logo.png','logo.png', 'logo.png', 'logo.png']" 
+        height="60" 
+        maxWidth="200"
+        marg="auto" />
+```
+### Demo 
+
+<p align="center">
+  <img src="slider_demo.gif" title="demo">
+  <img src="slider.gif"" alt="demo">
+</p>

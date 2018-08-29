@@ -27,7 +27,7 @@ yarn run lint
 You can pass following options:
 
 * height - Number, height in pixels
-* margin - String, margin property
+* marg - String, margin property
 * maxWidth - Number, max-width property
 * photo - Array of images located in `/src/assets` 
 

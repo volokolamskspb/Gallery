@@ -42,7 +42,5 @@ Example:
 ```
 ### Demo 
 
-<p align="center">
-  <img src="slider_demo.gif" title="demo">
-  <img src="slider.gif"" alt="demo">
-</p>
+<img src="slider.gif" alt="demo">
+

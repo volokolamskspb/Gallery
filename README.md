@@ -1,6 +1,6 @@
-# Slider
+# Gallery
 
-Slider component with preview on VueJS
+Gallery component with preview on VueJS
 
 ## Project setup
 ```

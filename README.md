@@ -2,6 +2,10 @@
 
 Gallery component with preview on VueJS
 
+### Demo 
+
+[Demo](https://volokolamskspb.github.io/slider/)
+
 ## Project setup
 ```
 yarn install
